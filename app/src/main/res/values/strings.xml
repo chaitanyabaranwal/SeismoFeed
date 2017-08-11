@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">SeismoFeed</string>
+
+    <!-- Default text to show with the earthquake location ("Near the Pacific-Antarctic Ridge")
+         if no specific kilometer distance from the primary location is given [CHAR LIMIT=30] -->
+    <string name="near_the">Near the</string>
+    <string name="no_earthquake">No earthquakes found. :/</string>
+    <string name="no_internet">No network connection. :(</string>
+    <string name="settings_title">Earthquake Settings</string>
+    <string name="settings_menu_item">Settings</string>
+    <string name="min_mag">Minimum magnitude</string>
+    <string name="min_mag_key" translatable="false">min_magnitude</string>
+    <string name="min_mag_value" translatable="false">6</string>
+
+    <string name="order_by_label">Order By</string>
+    <string name="order_by_key" translatable="false">order_by</string>
+    <string name="order_by_default" translatable="false">@string/orderByMagValue</string>
+
+    <string name="orderByMagLabel">Magnitude</string>
+    <string name="orderByMagValue" translatable="false">magnitude</string>
+
+    <string name="orderByRecentLabel">Most Recent</string>
+    <string name="orderByRecentValue" translatable="false">time</string>
+
+    <string name="maxLimitLabel">Maximum number of results</string>
+    <string name="maxLimitKey" translatable="false">max_limit</string>
+    <string name="maxLimitValue" translatable="false">10</string>
+
+    <string name = "startDateLabel">Start Date (yyyy-mm-dd, leave blank for no start date)</string>
+    <string name = "endDateLabel">End Date (yyyy-mm-dd, leave blank for no end date)</string>
+    <string name="startDateKey">start_date</string>
+    <string name="endDateKey">end_date</string>
+    <string name="startDateValue">""</string>
+    <string name="endDateValue">""</string>
+
+    <string name="about_app">About App</string>
+    <string name="appDescription">SeismoFeed is an app which provides records of earthquakes all over the globe using the USGS API.</string>
+    <string name="appInstructions">
+        INSTRUCTIONS \n
+        1. Modify settings to alter the data you want to get. \n
+        2. Click on a specific entry to get more details on the USGS website.
+    </string>
+
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="order_label">
+        <item>@string/orderByMagLabel</item>
+        <item>@string/orderByRecentLabel</item>
+    </string-array>
+
+    <string-array name="order_value">
+        <item>@string/orderByMagValue</item>
+        <item>@string/orderByRecentValue</item>
+    </string-array>
+    
+</resources>

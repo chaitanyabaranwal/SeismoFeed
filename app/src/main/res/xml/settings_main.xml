@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title = "@string/settings_title">
+
+    <ListPreference
+        android:defaultValue="@string/order_by_default"
+        android:entries="@array/order_label"
+        android:entryValues="@array/order_value"
+        android:key = "@string/order_by_key"
+        android:title = "@string/order_by_label" />
+
+    <EditTextPreference
+        android:title = "@string/min_mag"
+        android:key = "@string/min_mag_key"
+        android:inputType="numberDecimal"
+        android:selectAllOnFocus="true"
+        android:defaultValue = "@string/min_mag_value" />
+
+    <EditTextPreference
+        android:title = "@string/maxLimitLabel"
+        android:key = "@string/maxLimitKey"
+        android:inputType="number"
+        android:selectAllOnFocus="true"
+        android:defaultValue="@string/maxLimitValue" />
+
+    <EditTextPreference
+        android:title = "@string/startDateLabel"
+        android:key = "@string/startDateKey"
+        android:inputType="date"
+        android:selectAllOnFocus="true"
+        android:defaultValue="@string/startDateValue" />
+
+    <EditTextPreference
+        android:title = "@string/endDateLabel"
+        android:key = "@string/endDateKey"
+        android:inputType="date"
+        android:selectAllOnFocus="true"
+        android:defaultValue="@string/endDateValue" />
+
+</PreferenceScreen>
