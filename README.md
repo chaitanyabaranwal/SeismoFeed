@@ -18,4 +18,4 @@ SeismoFeed is an app which provides a database for all the earthquakes ever happ
 
 * **Chaitanya Baranwal** (https://github.com/chaitanyabaranwal/)
 
-![Images of the app](Untitled.png)
+![Images of the app](Images.png)
